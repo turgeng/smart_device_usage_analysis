@@ -27,7 +27,7 @@ To analyze smart device usage patterns (Fitbit data) and derive insights to supp
 | `Final_Bellabeat_case_study.html` | Final analysis report |
 | `Final_Bellabeat_case_study.pdf` | PDF version of report |
 | `Bellabeat_presentation.html` | Slide deck summary |
-| `data/` | Cleaned datasets used in the analysis |
+| `data/` | datasets used in the analysis |
 
 ---
 
