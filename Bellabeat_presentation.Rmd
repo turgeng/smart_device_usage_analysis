@@ -1,0 +1,123 @@
+---
+title: "Bellabeat Case Study"
+subtitle: "Smart Device Usage Analysis & Marketing Recommendations"
+author: "Gonca Turgen"
+date: "2025-06-20"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      slideNumberFormat: "%current%"
+      ratio: "16:9"
+      theme: [default, metropolis]
+---
+
+# Bellabeat Case Study
+
+Smart Device Usage Analysis  
+**Marketing Insights for the Leaf Tracker**  
+Presented by Gonca Turgen
+
+---
+
+## Business Context & Stakeholders
+
+- **Company**: Bellabeat – wellness tech for women  
+- **Product**: *Leaf* smart tracker  
+- **Stakeholders**:  
+  - Cofounder & Chief Creative Officer  
+  - Cofounder & Executive  
+  - Marketing Analytics Team
+
+---
+
+## Business Task
+
+Analyze smart device usage (Fitbit data)  
+→ Derive user behavior insights  
+→ Support marketing strategy for *Leaf*
+
+---
+
+## About the Data
+
+- Fitbit Public Dataset (Kaggle, 2016)  
+- 30 users: steps, calories, sleep, weight  
+- Used for **exploratory** purposes
+
+**ROCCC Review**  
+✔️ Relevant  
+❌ Not Original  
+➖ Limited sample  
+❌ Not Current  
+⚠️ Not cited
+
+---
+
+## Data Cleaning Summary
+
+- Column name cleanup  
+- Date format standardization  
+- Removed NAs, duplicates  
+- Grouped & merged datasets
+
+Packages used: `tidyverse`, `lubridate`, `janitor`, `ggplot2`, `skimr`
+
+---
+
+## Activity Behavior Insights
+
+- Most users moderately active  
+- High sedentary time  
+- Activity consistency varies  
+- More consistent = more steps/calories
+
+---
+
+## Sleep Behavior Insights
+
+- Avg sleep ~6–8 hours  
+- Efficiency varies  
+- Active users sleep more efficiently (slightly)
+
+---
+
+## Combined Analysis
+
+Merged sleep + activity data:
+
+- No meaningful correlation between physical activity and sleep quality
+
+---
+
+## Marketing Recommendations
+
+- Promote habit building: “daily streaks”  
+- Visualize user trends inside the app  
+- Educate users on active minutes vs steps  
+- Tailor messaging to consistent movers
+
+---
+
+## Limitations
+
+- Data is outdated, non-diverse  
+- No gender or contextual data  
+- Small sample limits generalization
+
+---
+
+## Future Steps
+
+- Analyze Bellabeat’s internal data  
+- Include mindfulness, menstrual, stress data  
+- Personalize marketing based on richer segmentation
+
+---
+
+## Thank You!
+
+
