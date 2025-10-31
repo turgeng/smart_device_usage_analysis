@@ -1,5 +1,5 @@
-# Bellabeat Case Study  
-**Google Data Analytics Capstone Project**
+# User Activity Analysis 
+**Smart device usage analysis**
 
 This case study explores how non-Bellabeat smart device users engage with their fitness trackers and how these insights can inform Bellabeat’s marketing strategy—particularly for its wellness product, Leaf.
 
